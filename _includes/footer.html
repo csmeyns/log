@@ -1,0 +1,16 @@
+<div class="index-footer">
+            <div class="info"><p>Chris Meyns is a philosopher, historian of science, speaker and organizer. <a href="/feed.xml">RSS feed</a>.</p>
+
+
+
+    </div>
+            <div class="categories">
+<ul>
+  {% for category in site.category %}
+    <li>
+      <a href="{{ category.url }}">{{ category.tag }}</a>
+    </li>
+  {% endfor %}
+</ul></div>
+    <section class="clear"></section>
+        </div>

@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<div class="images clearfix">
+    <img src="{{ page.hero }}">
+
+        </div>
+
+<div class="object">
+<div class="date">{{ page.date | date: "%m/%d/%Y" }}
+    <div class="categories">
+
+    {% for categories in page.categories %}
+        <li><a href="/category/{{ categories }}">{{ categories }}</a></li>
+                {% endfor %}</div>
+    </div>
+
+    <div class="post">
+     <h2>{{ page.title }}</h2>
+        <p>{{ page.description }}</p>
+
+        </div>
+</div>
+            <div class="images">
+
+    {{ content }}
+
+</div>
+
+
+
+
+
+

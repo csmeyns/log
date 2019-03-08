@@ -1,0 +1,121 @@
+---
+layout: default
+title: Log
+hero: '/images/hero.jpg'
+---
+<body>
+
+<div id="container">
+    <div class="intro">
+        <p>Notes from the sidewalk about <a href="/category/philosophy">philosophy</a>, <a href="/category/publishing">publishing</a>, and so on by <a href="http://www.chrismeyns.xyz/about">Chris Meyns</a>. <a href="/feed.xml" class="rss">RSS feed</a></p>
+
+</div>
+
+    <main class="preview">
+
+      <div class="blog-list-container" id="all-container">
+
+          {% for post in paginator.posts %}
+                <a href="{{ site.baseurl }}{{ post.url }}">
+        <div class="blog-list">
+            <div class="date">{{ post.date | date_to_string }}</div>
+            <div class="post-title">
+            <h2>{{ post.title }}</h2>
+            <p>{{ post.description }}</p>
+            </div>
+            {% if post.hero %}
+            <img src="{{post.hero}}">
+             {% endif %}
+                    </div></a>
+          {% endfor %}
+      </div>
+
+      {% for tag in site.tags %}
+        {% assign t = tag | first %}
+        {% assign posts = tag | last %}
+        <div class="blog-list-container hidden" id="{{ t }}-container">
+
+            {% for post in posts %}
+              {% if post.tags contains t %}
+        <a href="{{ site.baseurl }}{{ post.url }}">
+        <div class="blog-list">
+            <div class="date">{{ post.date | date_to_string }}</div>
+            <h2>{{ post.title }}</h2>
+             {% if post.hero %}
+            <img src="{{post.hero}}">
+             {% endif %}
+        </div>
+              {% endif %}
+            {% endfor %}
+
+        </div>
+      {% endfor %}
+
+        </main>
+    </div>
+
+    <section class="clear"></section>
+
+        <!-- pagination -->
+        {% if paginator.total_pages > 1 %}
+<div class="pagination">
+<div class="PageNavigation">
+
+  {% if paginator.previous_page %}
+    <a class="next" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&leftarrow; Next</a>
+  {% endif %}
+
+
+  {% if paginator.next_page %}
+    <a class="prev" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Previous &rightarrow;</a>
+  {% endif %}
+
+
+    </div>
+        </div>
+        {% endif %}
+
+{% include footer.html %}
+
+
+<script>
+
+    function filter(tag) {
+  setActiveTag(tag);
+  showContainer(tag);
+}
+
+function setActiveTag(tag) {
+  // loop through all items and remove active class
+  var items = document.getElementsByClassName('blog-tag-item');
+  for(var i=0; i < items.length; i++) {
+    items[i].setAttribute('class', 'blog-tag-item');
+  }
+
+  // set the selected tag's item to active
+  var item = document.getElementById(tag + '-item');
+  if(item) {
+    item.setAttribute('class', 'blog-tag-item active');
+  }
+}
+
+function showContainer(tag) {
+  // loop through all lists and hide them
+  var lists = document.getElementsByClassName('blog-list-container');
+  for(var i=0; i < lists.length; i++) {
+    lists[i].setAttribute('class', 'blog-list-container hidden');
+  }
+
+  // remove the hidden class from the list corresponding to the selected tag
+  var list = document.getElementById(tag + '-container');
+  if(list) {
+    list.setAttribute('class', 'blog-list-container');
+  }
+}
+
+
+    </script>
+
+</body>
+
+

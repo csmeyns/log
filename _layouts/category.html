@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+    <div class="intro"><p>{{ page.tag }}</p></div>
+
+    {% for post in site.categories[page.tag] %}
+                <a href="{{ site.baseurl }}{{ post.url }}">
+        <div class="blog-list">
+            <div class="date">{{ post.date | date: "%m/%d/%Y" }}</div>
+            <div class="post-title">
+            <h2>{{ post.title }}</h2>
+            <p>{{ post.description }}</p>
+            </div>
+            {% if post.hero %}
+            <img src="{{post.hero}}">
+             {% endif %}
+                    </div></a>
+    {% endfor %}
+
+    <section class="clear"></section>
+
+{% include footer.html %}
