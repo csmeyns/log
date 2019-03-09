@@ -36,7 +36,7 @@ Some articles even get more specific. On that presentation of her, Bohemia does 
 
 When Bohemia eventually is able to squeeze a word in, she wins the argument (obviously). But that still doesn’t result in much recognition of her philosophical agency. We do not see Bohemia vindicated. Instead, over and over, attention shifts straight back to Descartes, who “should have conceded” things to her ([Johnstone 1992](https://philpapers.org/rec/JOHTBN)).
 
-![Fragment of article title](/log/images/bohemia5.png)
+![Fragment of article title]({{site.baseurl}}/images/bohemia5.png)
 *Article ‘The Bodily Nature of the Self or What Descartes Should Have Conceded Princess Elizabeth of Bohemia’*
 
 Yes, Bohemia figures in these articles. She even gets mentioned in their titles. Her name is no longer fully alien. But somehow, somewhere along the way her agency as a philosophical disruptor has been discarded, and she becomes nothing but a foil for people to talk at, whisper towards, or concede things to.
