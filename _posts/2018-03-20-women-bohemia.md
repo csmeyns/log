@@ -4,7 +4,7 @@ title: "Women Philosophers Get No Agency: Elisabeth of Bohemia"
 categories: 
 - Philosophy
 - Publishing
-hero: /log/images/bohemia1.png
+hero: /images/bohemia1.png
 herocap: "Elisabeth of Bohemia (1618–1680) with hunting spear (fragment, from Godfrey 1909)"
 description: "Essay on agency and women in philosophy"
 ---
@@ -26,7 +26,7 @@ Digging further into Bohemia’s case, you can easily see some such patterns are
 
 For example, going by one article ([Yandell 1997](https://philpapers.org/rec/YANWDR)), when Descartes and Bohemia correspond, that is not a two-way meeting of minds. Rather, Bohemia is being “told” things by Descartes.
 
-![Fragment of article title](/log/images/bohemia3.png)
+![Fragment of article title](/images/bohemia3.png)
 *Article ‘What Descartes Really Told Elisabeth'*
 
 Some articles even get more specific. On that presentation of her, Bohemia does not come up with her own argument. More grossly, when she unmistakably has ideas, that is just because people were whispering things in her ear ([Alexandrescu 2012](http://oxfordindex.oup.com/view/10.1093/acprof:oso/9780199659593.003.0001)).
