@@ -67,7 +67,7 @@ hero: '/images/hero.jpg'
 
 
   {% if paginator.next_page %}
-    <a class="prev" href="{{ site.baseurl }}{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Previous &rightarrow;</a>
+    <a class="prev" href="{{ site.baseurl }}{{ paginator.next_page_path | replace: '//', '/' }}">Previous &rightarrow;</a>
   {% endif %}
 
 
