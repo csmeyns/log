@@ -4,7 +4,7 @@ title: "Women Philosophers Get No Agency: Elisabeth of Bohemia"
 categories: 
 - Philosophy
 - Publishing
-hero: /log/images/bohemia1.png
+hero: {{site.baseurl}}/images/bohemia1.png
 herocap: "Elisabeth of Bohemia (1618–1680) with hunting spear (fragment, from Godfrey 1909)"
 description: "Essay on agency and women in philosophy"
 ---
@@ -15,7 +15,7 @@ I was reminded of this mess when I came across a Google Scholar entry for an edi
 
 The entry featured a massive omission.
 
-![Google Scholar results](/log/images/bohemia2.png)
+![Google Scholar results]({{site.baseurl}}/images/bohemia2.png)
 *Google Scholar listing of the correspondence between Bohemia and Descartes*
 
 While the ‘Title’ field correctly lists both authors, the ‘Author’ field below brashly reduces this to simply ‘R Descartes’. Our friend Renatus. So Descartes wrote the correspondence between Bohemia and Descartes? All fifty-eight letters travelling back-and-forth between The Hague, Egmond, Berlin and Stockholm? All those inkblots, hours toiled, corrections, those ‘Sorry I couldn’t write sooner’s? All single-handedly penned by Descartes.
@@ -31,7 +31,7 @@ For example, going by one article ([Yandell 1997](https://philpapers.org/rec/YAN
 
 Some articles even get more specific. On that presentation of her, Bohemia does not come up with her own argument. More grossly, when she unmistakably has ideas, that is just because people were whispering things in her ear ([Alexandrescu 2012](http://oxfordindex.oup.com/view/10.1093/acprof:oso/9780199659593.003.0001)).
 
-![Fragment of article title](/log/images/bohemia4.png)
+![Fragment of article title]({{site.baseurl}}/images/bohemia4.png)
 *Article ‘What Someone May Have Whispered in Elisabeth’s Ear’*
 
 When Bohemia eventually is able to squeeze a word in, she wins the argument (obviously). But that still doesn’t result in much recognition of her philosophical agency. We do not see Bohemia vindicated. Instead, over and over, attention shifts straight back to Descartes, who “should have conceded” things to her ([Johnstone 1992](https://philpapers.org/rec/JOHTBN)).
