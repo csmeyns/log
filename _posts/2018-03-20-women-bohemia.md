@@ -4,7 +4,7 @@ title: "Women Philosophers Get No Agency: Elisabeth of Bohemia"
 categories: 
 - Philosophy
 - Publishing
-hero: ../images/bohemia1.png
+hero: images/bohemia1.png
 herocap: "Elisabeth of Bohemia (1618–1680) with hunting spear (fragment, from Godfrey 1909)"
 description: "Essay on agency and women in philosophy"
 ---
