@@ -4,7 +4,7 @@ title: "Too Much Biography in Feminist History of Philosophy?"
 categories: 
 - Philosophy
 - Gender
-hero: /images/gordon-roth-kendrick2019.jpg
+hero: /images/gordon-roth-kendrick2019.JPG
 herocap: "..."
 description: "Adding biographical details to scholarship on early modern women philosophers damages their prospects of making it into the canon, argue Gordon-Roth and Kendrick (2019). But does it?"
 ---
