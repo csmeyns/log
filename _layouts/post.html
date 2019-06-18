@@ -10,16 +10,17 @@ layout: default
 
 <div class="object">
 <div class="date">{{ page.date | date_to_string }}
-    <div class="categories">
-
+<div class="categories">
     {% for categories in page.categories %}
         <li><a href="/category/{{ categories }}">{{ categories }}</a></li>
-                {% endfor %}
-        </div>
-    </div>
+    {% endfor %}
 
+<div>
+{% include share.html %}
+</div>
 
-
+     </div>
+</div>
 <div class="post">
              <h2>{{ page.title }}</h2>
 

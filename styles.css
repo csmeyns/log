@@ -640,6 +640,7 @@ figcaption {
 .pagination a:hover {
     border-bottom: 0px;
 }
+
 /* FOOTER */
 .index-footer {
     display: block;
@@ -663,4 +664,32 @@ figcaption {
     margin-left: 0px;
     width: 100%;
   }
+}
+
+/* SHARE BUTTONS */
+
+.sharebuttons {
+  padding-top: 15px;
+}
+
+.sharebuttons ul {
+  margin: 20px 20px 0 0;
+  text-align: left;
+}
+
+.sharebuttons ul li {
+  display: inline;
+}
+
+.sharebuttons ul li a {
+  text-decoration: none;
+}
+
+.sharebuttons ul li svg {
+  width: 40px;
+  height: 40px;
+}
+
+.sharebuttons svg {
+  fill: #848484;
 }
